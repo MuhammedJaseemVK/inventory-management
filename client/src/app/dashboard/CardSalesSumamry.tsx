@@ -83,7 +83,7 @@ const CardSalesSumamry = () => {
                   dataKey="date"
                   tickFormatter={(value) => {
                     const date = new Date(value);
-                    return `${date.getMonth() + 1}/${date.getDate()}}`;
+                    return `${date.getMonth() + 1}/${date.getDate()}`;
                   }}
                 />
                 <YAxis
